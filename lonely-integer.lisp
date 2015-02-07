@@ -6,4 +6,4 @@
     (t num)))
 
 
-(write (lonely-integer (loop for i from 1 to (read) collect (read))))
+(write '(lonely-integer (loop for i from 1 to (read) collect (read))))
